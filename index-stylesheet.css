@@ -1,0 +1,36 @@
+img {
+  background-color: #f95a61;
+}
+
+#footer {
+  position: static;
+}
+nav ul li {
+  display: inline;
+  padding: .5%;
+}
+
+table {
+  border: 1px solid black;
+}
+table th{
+  text-align: center;
+  border: 1px solid black;
+}
+
+table td {
+  border: 1px solid black;
+}
+
+.button{
+  border: none;
+}
+
+label {
+  display: block;
+}
+
+.gender {
+  display: inline;
+}
+
