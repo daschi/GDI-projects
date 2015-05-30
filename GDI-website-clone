@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.yourwebsite.com">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GirlDevelopIt</title>
+<meta name="description" content="Page Description Goes Here" />  <!--JD: What are the meta name and links?-->
+<meta name="keywords" content="keywords go here separated by commas" />
+<link href="index-stylesheet.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+</style>
+<!--Please do not remove the code below.  This ensures the browser displays properly in Internet Explorer 6.0 -->
+<!--[if IE 6]>
+        <link rel="stylesheet" type="text/css" href="ie6.css" />
+<![endif]-->
+</head>
+<body>
+<div id="container">
+
+
+<div id="header">
+<img src="gdi-logo.png"/>
+</div> <!--close header-->
+
+<div id="body">
+  <h1>About</h1>
+  <p>It can be intimadating for women. We are at DBC and struggling on a tiny keyboard.</p>
+  <h2>Our Locations</h2>
+  <p>
+    <ul>
+      <li>USA</li>
+      <ul>
+        <li><a href="https://www.girldevelopit.com/chapters/new-york">New York</a></li>
+        <li><a href="https://www.girldevelopit.com/chapters/columbus">Columbus</a></li>
+        <li><a href="https://www.girldevelopit.com/chapters/austin">Austin</a></li>
+        <li><a href="https://www.girldevelopit.com/chapters/philadelphia">Philly</a></li>
+      </ul>
+      <li>The WORLD</li>
+      <ul>
+        <li><a href="https://www.girldevelopit.com/chapters/ottawa"Ottawa</a></li>
+        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&sqi=2&ved=0CCkQFjAB&url=http%3A%2F%2Fgirl-develop-it.meetup.com%2Fcities%2Fau%2Fsydney%2F&ei=MPxpVc7IJsbnoATTyoHYBQ&usg=AFQjCNENuJRD2CQy3csnqCXN6JTUvm1u6g&sig2=_q7qFhpdMFZwKaVBBCi_EA&bvm=bv.94455598,d.cGU">Sydney</a></li>
+      </ul>
+    </ul>
+  </p>
+  <h2>Upcoming Classes</h2>
+  <table>
+    <tr>
+      <th>Location</th>
+      <th>Topic</th>
+    </tr>
+    <tr>
+      <td>New York</td>
+      <td>JavaScript &amp; jQuery</td>
+    </tr>
+    <tr>
+      <td>San Francisco</td>
+      <td>HTML &amp; CSS</td>
+    </tr>
+  </table>
+
+<h2>Sign Up!</h2>
+<!-- <table>
+  <tr>
+<form action="http://imagine-it.org/processform.php"
+  method="get">
+  <td>First Name: </td>
+  <td><input type="text" name="first"></td>
+  <tr>
+  <td>Last Name:</td>
+  <td><input type="text" name="last"></td>
+  </tr>
+  <tr class="button"><td class="button"><button type="submit">Submit</button></td></tr>
+</form>
+</table> -->
+
+<form action="http://imagine-it.org/processform.php"
+  method="get">
+  <label>First Name:<input type="text" name="first"></label>
+  <label>Last Name:<input type="text" name="last"></label>
+  <label for="location">Location:</label>
+  <select name="location" id="location">
+    <option value="San Francisco">San Francisco</option>
+    <option value="New York">New York</option>
+    <option value="Philly">Philly</option>
+  </select>
+<fieldset>
+  <legend>Gender:</legend>
+  <label class="gender" for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female">
+  <label class="gender" for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male">
+</fieldset>
+<label>Experience:<br>
+<textarea name="experience"></textarea>
+</label>
+
+  <button type="submit">Sign Up</button>
+
+</form>
+
+
+</div> <!--close body-->
+
+<div id="footer">
+  <nav>
+    <ul>
+      <li><a href="https://twitter.com/girldevelopit">Twitter</a>  |</li>
+      <li><a href="https://www.facebook.com/girldevelopit">Facebook</a>  |</li>
+      <li><a href="https://flickr.com">Flickr</a></li>
+    </ul>
+  </nav>
+</div> <!--close footer-->
+
+</div> <!--close container-->
+</body>
+
+</html>
