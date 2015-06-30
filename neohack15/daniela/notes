@@ -1,0 +1,11 @@
+1. get word from input field
+2. add it to an buzzword array
+3. select a random number
+4. 
+
+Get a Unique Number from a Range
+- Start with a range of numbers 1-16 in array
+- Shuffle the range of numbers in the array
+- Remove a number from the array and return it
+- Each time, remove a new number from the newly shortened array
+

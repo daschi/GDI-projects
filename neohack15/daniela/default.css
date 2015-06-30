@@ -1,0 +1,22 @@
+.bingo-grid {
+    width: 410px;
+    height: 410px;
+}
+
+.bingoSpace {
+    color: blue;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background: #f4ee9c;
+    float: left;
+}
+
+.bingoSpace.highlight {
+    background:#f4e26d;
+}
+
+.social {
+	display: inline-block;
+	margin-left: 10%;
+}

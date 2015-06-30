@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <title>Buzzword Bingo</title>
+</head>
+<body>
+    <!-- logo/title -->
+    <div id="logo">
+        <img src="#" alt="">
+    </div>
+
+    <!-- Add words -->
+    
+        Add words:
+        <input type="text" name="word" id="add_word">
+        <button id="add">Add</button>
+    
+    
+    <!-- info and social media icons -->
+    <div class="social">
+    <img src="info.png" href="#" height="20px" width="20px">
+    <img src="fb.png" href="#" height="20px" width="20px">
+    <img src="twitter.png" href="#" height="20px" width="20px">
+    </div>
+
+    <!-- bingo grid -->
+    <div class="bingo-grid">
+
+    <!-- #top row -->
+        <div id="row-1">
+            <div class="bingoSpace" id="square-1"><p></p></div>
+            <div class="bingoSpace" id="square-2"><p></p></div>
+            <div class="bingoSpace" id="square-3"><p></p></div>
+            <div class="bingoSpace" id="square-4"><p></p></div>
+        </div>
+
+    <!-- #middle-top row -->
+        <div id="row-2">
+            <div class="bingoSpace" id="square-5"><p></p></div>
+            <div class="bingoSpace" id="square-6"><p></p></div>
+            <div class="bingoSpace" id="square-7"><p></p></div>
+            <div class="bingoSpace" id="square-8"><p></p></div>
+        </div>
+
+    <!-- #middle-bottom row -->
+        <div id="row-3">
+            <div class="bingoSpace" id="square-9"><p></p></div>
+            <div class="bingoSpace" id="square-10"><p></p></div>
+            <div class="bingoSpace" id="square-11"><p></p></div>
+            <div class="bingoSpace" id="square-12"><p></p></div>
+        </div>
+
+    <!-- #bottom row -->
+        <div id="row-4">
+            <div class="bingoSpace" id="square-13"><p></p></div>
+            <div class="bingoSpace" id="square-14"><p></p></div>
+            <div class="bingoSpace" id="square-15"><p></p></div>
+            <div class="bingoSpace" id="square-16"><p></p></div>
+        </div>
+
+    </div> <!-- end bingo-grid -->
+
+    <!-- pop-up user instructions -->
+    <div style="display: none;">
+    <h1>How to Play</h1>
+    <p>Instructions here</p>
+    </div>
+    <!-- jquery & js scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script type="text/javascript" src="bingo.js"></script>
+</body>
+</html>
